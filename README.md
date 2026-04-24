@@ -1,14 +1,6 @@
 # Accredian Enterprise — Partial Clone
 
-A fully responsive Next.js clone of [enterprise.accredian.com](https://enterprise.accredian.com/), built as part of the Accredian Full Stack Developer Intern assignment.
 
----
-
-## 🚀 Live Demo
-
-> Deploy to Vercel (instructions below) and paste your URL here.
-
----
 
 ## 🛠️ Tech Stack
 
@@ -23,9 +15,7 @@ A fully responsive Next.js clone of [enterprise.accredian.com](https://enterpris
 
 ---
 
-## 📦 Setup Instructions
 
-### Prerequisites
 - Node.js 18+
 - npm or yarn
 
@@ -54,19 +44,6 @@ npm start
 
 ---
 
-## 🌐 Deploy to Vercel
-
-```bash
-# Install Vercel CLI
-npm i -g vercel
-
-# Deploy
-vercel
-```
-
-Or connect your GitHub repo to Vercel at [vercel.com/new](https://vercel.com/new).
-
----
 
 ## 📁 Project Structure
 
@@ -113,7 +90,7 @@ Each section is a **self-contained functional component** with:
 - Intersection Observer for scroll-triggered animations
 - No prop drilling — each section is independently composable
 
-### 3. API Integration
+ 3. API Integration
 - `/api/programs` — Mock database of 6 programs with filtering by category
 - `/api/leads` — Full CRUD-ready endpoint with validation (in-memory store, ready for DB swap)
 - Programs section fetches dynamically on category change
